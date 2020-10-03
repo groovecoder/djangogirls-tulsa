@@ -11,8 +11,8 @@
 
 1. When initializing your git repository, make sure you are in the same folder on your terminal and code editor.  I was in a different folder on my editor and when I typed git status on my terminal I didn’t see any of the .gitignore files that I had just created or previous files that should have been there.
 
-1. Under the `Your First Django URL` section, when creating the first URL, just copy the ‘Your code should now look like this:’ box because the preceding paragraph with instructions is very confusing and I would guess most students would enter the information incorrectly. 
+1. Under the [Your First Django URL](https://tutorial.djangogirls.org/en/django_urls/#your-first-django-url) section, when creating the first URL, just copy the `Your code should now look like this:` box because the preceding paragraph with instructions is very confusing and I would guess most students would enter the information incorrectly. 
 
-1. In the `Dynamic Data in Templates` section, I missed the part were they added the variable ‘posts’ to the query set in the function.  They had a small paragraph where they mentioned it after the example but it is easy to miss.
+1. In the [Dynamic Data in Templates](https://tutorial.djangogirls.org/en/dynamic_data_in_templates/) section, I missed the part were they added the variable `posts` to the query set in the function.  They had a small paragraph where they mentioned it after the example but it is easy to miss.
 
 1. After adding in my CSS files, I went to refresh the page and it didn’t show the changes.  Finally figured out I had to shut down my live server  that I had kept live then restart it in order for the changes to show up.  It doesn’t ever say shut the live server down most times, so just something to be aware of.
