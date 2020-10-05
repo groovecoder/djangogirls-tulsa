@@ -16,3 +16,19 @@
 1. In the [Dynamic Data in Templates](https://tutorial.djangogirls.org/en/dynamic_data_in_templates/) section, I missed the part were they added the variable `posts` to the query set in the function.  They had a small paragraph where they mentioned it after the example but it is easy to miss.
 
 1. After adding in my CSS files, I went to refresh the page and it didn’t show the changes.  Finally figured out I had to shut down my live server  that I had kept live then restart it in order for the changes to show up.  It doesn’t ever say shut the live server down most times, so just something to be aware of.
+
+1. On Windows, when you check the python version after installation, if you get this error:
+
+	```
+	$ python3 --version
+	bash: python3: command not found
+	```
+	
+	try this instead:
+
+	```
+	$ py --version
+	Python 3.8.6
+	```
+	
+	(Your version may be different, but as long as you see 'Python' followed by a number you are good to go.)
