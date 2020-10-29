@@ -25,6 +25,8 @@
 	```
 	
 	(Your version may be different, but as long as you see 'Python' followed by a number you are good to go.)
+	
+	If this is the case, any time the `python3` command is supposed to be called during the tutorial, substitute it for one of the working ones above.
 
 ## Tutorial Tips
 
