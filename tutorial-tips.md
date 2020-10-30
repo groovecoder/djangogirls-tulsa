@@ -27,6 +27,8 @@
 	(Your version may be different, but as long as you see 'Python' followed by a number you are good to go.)
 	
 	If this is the case, any time the `python3` command is supposed to be called during the tutorial, substitute it for one of the working ones above.
+	
+2. Under "Install Python", the tutorial states "If you already have version 3.4 or higher you should be fine."  However, when setting up the requirements.txt, the tutorial pins the Django version to a compatible version of 2.2.4.  Django 2.2.4 has a minimum Python requirement of [Python 3.5.x](https://pypi.org/project/Django/2.2.4/ "Django 2.2.4 Page on pypi.org").  I just happened to be pinned to a python version of 3.4.4 on Windows, so I happened to notice this discrepancy when doing the `pip install`.  
 
 ## Tutorial Tips
 
