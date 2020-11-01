@@ -1,6 +1,8 @@
 # Common Issues
 
-## During Installation
+## [Installation](https://tutorial.djangogirls.org/en/installation/)
+
+1. When the installation and tutorial give instructions for the command line, start typing the part *after* the `$` or `C:\Users\Name\djangogirls>`.
 
 1. On Windows, when you check the python version after installation, you may get this error followed by the Windows Store opening:
 
@@ -30,7 +32,7 @@
 	
 2. Under "Install Python", the tutorial states "If you already have version 3.4 or higher you should be fine."  However, when setting up the requirements.txt, the tutorial pins the Django version to a compatible version of 2.2.4.  Django 2.2.4 has a minimum Python requirement of [Python 3.5.x](https://pypi.org/project/Django/2.2.4/ "Django 2.2.4 Page on pypi.org").  I just happened to be pinned to a python version of 3.4.4 on Windows, so I happened to notice this discrepancy when doing the `pip install`.  
 
-## Tutorial Tips
+## [Tutorial](https://tutorial.djangogirls.org/en/)
 
 1. After creating the `my-first-blog` repository on GitHub, I was supposed to push my git files to the repo.  I got this error:
 
