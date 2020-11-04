@@ -56,3 +56,5 @@
 1. If you get the error `name 'timezone' is not defined`, you have most likely missed importing timezone from `django.utils` in `views.py` (from the [Dynamic data in templates](https://tutorial.djangogirls.org/en/dynamic_data_in_templates/#queryset, "Dynamic data in templates") section).
 
 1. If you get the error `name 'redirect' is not defined`, you have most likely missed importing redirect from `django.shortcuts` in `views.py` (from the [Django Forms](https://tutorial.djangogirls.org/en/django_forms/#saving-the-form, "Django Forms") section).
+
+1. On the [Deploy!](https://tutorial.djangogirls.org/en/deploy#pushing-your-code-to-github) section students are pushing code to their repo. Github uses 'main' instead of 'master' now. Since the tutorial refers to the master branch keeping that naming convention will cause less confusion. A fix for this is when setting up the repo on Github, click the settings link just above the green Create repository button. In the box on the next page change main to master and click update. Close out the settings tab and click the green button on the previous page to finish creating the repo. 
