@@ -49,9 +49,7 @@
 
 1. In the [Dynamic Data in Templates](https://tutorial.djangogirls.org/en/dynamic_data_in_templates/) section, I missed the part were they added the variable `posts` to the query set in the function.  They had a small paragraph where they mentioned it after the example but it is easy to miss.
 
-1. After adding in my CSS files, I went to refresh the page and it didn’t show the changes.  Finally figured out I had to shut down my live server  that I had kept live then restart it in order for the changes to show up.  It doesn’t ever say shut the live server down most times, so just something to be aware of.
-
-If you have problems seeing the changes made to a CSS file, it may be due to your [browser cache](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/). Another thing you can try is to force reload the page. On Mac (Shift + refresh button) or Windows (Ctrl + refresh button) should do the trick. 
+1. After adding in my CSS files, I went to refresh the page and it didn’t show the changes.  Finally figured out I had to shut down my live server  that I had kept live then restart it in order for the changes to show up.  It doesn’t ever say shut the live server down most times, so just something to be aware of. If you have problems seeing the changes made to a CSS file, it may be due to your [browser cache](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/). Another thing you can try is to force reload the page. On Mac (Shift + refresh button) or Windows (Ctrl + refresh button) should do the trick. 
 See Method 1 on this [wikiHow](https://www.wikihow.com/Force-Refresh-in-Your-Internet-Browser)
 
 1. If you get the error `NameError: name 'include' is not defined`, You have most likely forgotten to import the include method from `django.urls` in `urls.py`(from the [Django URLs](https://tutorial.djangogirls.org/en/django_urls/#your-first-django-url, "Django URLs") section).
